@@ -21,7 +21,7 @@ const createAuthor = async function (req, res) {
 
     res.status(201).send({
       status: true,
-      message: "User created successfully",
+      message: "Author created successfully",
       data: createdAuthor,
     });
   } catch (error) {
